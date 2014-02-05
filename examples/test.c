@@ -6,8 +6,8 @@
 #include <errno.h>
 #include <signal.h>
 #include <inttypes.h>
-#include <evhtp.h>
-#include <event2/event.h>
+#include "essence/libevhtp/evhtp.h"
+#include "libevent/event2/event.h"
 
 #ifndef EVHTP_DISABLE_EVTHR
 int      use_threads    = 0;

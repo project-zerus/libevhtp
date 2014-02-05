@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <errno.h>
 #include <signal.h>
-#include <evhtp.h>
+#include "essence/libevhtp/evhtp.h"
 
 
 int

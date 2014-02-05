@@ -10,16 +10,16 @@
 #ifndef WIN32
 #include <sys/syscall.h>
 #include <sys/ioctl.h>
-#include <sys/queue.h>
+#include "thirdparty/libevent/compat/sys/queue.h"
 #endif
 
 #include <unistd.h>
 #include <pthread.h>
 
-#include <event2/event.h>
-#include <event2/thread.h>
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/thread.h"
 
-#include "evthr.h"
+#include "essence/libevhtp/evthr/evthr.h"
 
 #if (__GNUC__ > 2 || ( __GNUC__ == 2 && __GNUC__MINOR__ > 4)) && (!defined(__STRICT_ANSI__) || __STRICT_ANSI__ == 0)
 #define __unused__   __attribute__((unused))

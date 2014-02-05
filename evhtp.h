@@ -1,25 +1,25 @@
 #ifndef __EVHTP__H__
 #define __EVHTP__H__
 
-#include <evhtp-config.h>
+#include "essence/libevhtp/evhtp-config.h"
 #ifndef EVHTP_DISABLE_EVTHR
-#include <evthr.h>
+#include "essence/libevhtp/evthr/evthr.h"
 #endif
 
-#include <htparse.h>
+#include "essence/libevhtp/htparse/htparse.h"
 
 #ifndef EVHTP_DISABLE_REGEX
-#include <onigposix.h>
+#include "essence/onig/onigposix.h"
 #endif
 
-#include <sys/queue.h>
-#include <event2/event.h>
-#include <event2/listener.h>
-#include <event2/buffer.h>
-#include <event2/bufferevent.h>
+#include "thirdparty/libevent/compat/sys/queue.h"
+#include "libevent/event2/event.h"
+#include "libevent/event2/listener.h"
+#include "libevent/event2/buffer.h"
+#include "libevent/event2/bufferevent.h"
 
 #ifndef EVHTP_DISABLE_SSL
-#include <event2/bufferevent_ssl.h>
+#include "libevent/event2/bufferevent_ssl.h"
 #include <openssl/ssl.h>
 #include <openssl/err.h>
 #include <openssl/rand.h>

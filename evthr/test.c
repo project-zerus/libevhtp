@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <errno.h>
 #include <unistd.h>
-#include <evthr.h>
+#include "essence/libevhtp/evthr/evthr.h"
 
 static void
 _test_cb_1(evthr_t * thr, void * cmdarg, void * shared) {
