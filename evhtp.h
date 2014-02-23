@@ -13,13 +13,13 @@
 #endif
 
 #include "thirdparty/libevent/compat/sys/queue.h"
-#include "libevent/event2/event.h"
-#include "libevent/event2/listener.h"
-#include "libevent/event2/buffer.h"
-#include "libevent/event2/bufferevent.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/listener.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
 
 #ifndef EVHTP_DISABLE_SSL
-#include "libevent/event2/bufferevent_ssl.h"
+#include "thirdparty/libevent/event2/bufferevent_ssl.h"
 #include <openssl/ssl.h>
 #include <openssl/err.h>
 #include <openssl/rand.h>
