@@ -7,8 +7,8 @@ cc_library(
         '#pthread',
         '//thirdparty/libevent:libevent',
         '//thirdparty/openssl:openssl',
-        '//essence/libevhtp/evthr:evthr',
-        '//essence/libevhtp/htparse:htparse',
+        './evthr:evthr',
+        './htparse:htparse',
     ],
     defs = [
         '_POSIX_C_SOURCE=200112',

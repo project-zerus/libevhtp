@@ -6,7 +6,7 @@
 #include <assert.h>
 #include <inttypes.h>
 
-#include "essence/libevhtp/htparse/htparse.h"
+#include "libevhtp/htparse/htparse.h"
 
 #define ADD_DATA_BUF(buf, name, data, len) do { \
         strcat(buf, name ": '");                \

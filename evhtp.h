@@ -1,15 +1,15 @@
 #ifndef __EVHTP__H__
 #define __EVHTP__H__
 
-#include "essence/libevhtp/evhtp-config.h"
+#include "libevhtp/evhtp-config.h"
 #ifndef EVHTP_DISABLE_EVTHR
-#include "essence/libevhtp/evthr/evthr.h"
+#include "libevhtp/evthr/evthr.h"
 #endif
 
-#include "essence/libevhtp/htparse/htparse.h"
+#include "libevhtp/htparse/htparse.h"
 
 #ifndef EVHTP_DISABLE_REGEX
-#include "essence/onig/onigposix.h"
+#include "onig/onigposix.h"
 #endif
 
 #include "thirdparty/libevent/compat/sys/queue.h"

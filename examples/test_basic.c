@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <errno.h>
-#include "essence/libevhtp/evhtp.h"
+#include "libevhtp/evhtp.h"
 
 void
 testcb(evhtp_request_t * req, void * a) {

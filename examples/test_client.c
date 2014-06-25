@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <errno.h>
 #include <inttypes.h>
-#include "essence/libevhtp/evhtp.h"
+#include "libevhtp/evhtp.h"
 
 static void
 request_cb(evhtp_request_t * req, void * arg) {

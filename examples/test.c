@@ -6,7 +6,7 @@
 #include <errno.h>
 #include <signal.h>
 #include <inttypes.h>
-#include "essence/libevhtp/evhtp.h"
+#include "libevhtp/evhtp.h"
 #include "libevent/event2/event.h"
 
 #ifndef EVHTP_DISABLE_EVTHR

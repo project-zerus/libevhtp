@@ -7,7 +7,7 @@
 #include <errno.h>
 #include <unistd.h>
 
-#include "essence/libevhtp/htparse/htparse.h"
+#include "libevhtp/htparse/htparse.h"
 
 #ifdef PARSER_DEBUG
 #define __QUOTE(x)                  # x
