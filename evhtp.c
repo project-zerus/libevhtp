@@ -22,7 +22,7 @@
 
 #include <limits.h>
 
-#include "essence/libevhtp/evhtp.h"
+#include "libevhtp/evhtp.h"
 
 static int                  _evhtp_request_parser_start(htparser * p);
 static int                  _evhtp_request_parser_path(htparser * p, const char * data, size_t len);
